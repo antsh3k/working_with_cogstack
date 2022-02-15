@@ -1,2 +1,8 @@
 # working_with_cogstack
-Basic setup and easy to follow templates to interact and search CogStack
+This repository contains all tools relevant to interacting with an NHS deployment of CogStack
+
+
+It contains easy to follow templates and instructions to interact and search CogStack
+
+## Contents
+
