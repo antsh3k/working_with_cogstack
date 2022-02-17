@@ -1,4 +1,4 @@
-# working_with_cogstack
+# Working with CogStack
 This repository contains all tools relevant to interacting with an NHS deployment of CogStack
 
 
@@ -17,5 +17,27 @@ __Linux/MAC OS__
 2. Load the virtual environment: `source venv/bin/activate`
 3. Install relevant packages and libraries: `pip install -r requirements.txt`
 
+### Login details
+In this directory you must create a __credentials.py__ file.
+
+Contents:
+```
+hosts = []  # This is a list of your cogstack elasticsearch instances.
+
+# These are your login details (either via http_auth or API)
+username = ""
+password = ""
+api_username = ''
+api_password = ''
+```
+
 ## Contents
+
+## [How to search](search)
+This directory contains the basics search templates
+
+## [How to create a watcher](watcher)
+This directory contains the basics watcher job templates
+__NOTE__ this section is currently in progress
+
 
