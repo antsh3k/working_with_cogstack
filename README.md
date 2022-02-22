@@ -37,7 +37,9 @@ api_password = ''
 This directory contains the basics search templates
 
 ## [How to create a watcher](watcher)
-This directory contains the basics watcher job templates
-__NOTE__ this section is currently in progress
+This directory contains the basics watcher job templates.
+
+__NOTE__ this section is currently in progress. Let me know if there is anything 
+else to add.
 
 
