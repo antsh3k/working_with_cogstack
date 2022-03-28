@@ -1,14 +1,14 @@
-# Medical <img src="https://github.com/CogStack/MedCAT/blob/master/media/cat-logo.png" width=45> oncept Annotation Tool
+# Medical <img src="https://github.com/CogStack/MedCAT/blob/master/media/cat-logo.png" width=45>oncept Annotation Tool
 
 This directory contains information on retrieving data and creating models
 All details regarding creating, building and running the NLP model are stored here.
 
 ## Locations for storing data:
 
-- The [data](data) directory stores MedSHR textual content. 
+- The [data](data) directory stores textual content. 
 Methods for retrieving data should be stored in the [retrieve_data](search) folder.
 
-- The [models](data/models) directory holds models.
+- The [MedCAT models](data/medcat_models) directory holds models.
 
 ## Order of processing steps
 
@@ -17,7 +17,7 @@ __Step 1__: Create the model
 Each of the model components are found [here.](medcat/create_model)
 This directory contains all the components required to initialise a model pack.
 
-All models are stored [here.](data/models)
+All models should be stored [here.](data/medcat_models)
 
 
 __Step 2__: Perform unsupervised training
