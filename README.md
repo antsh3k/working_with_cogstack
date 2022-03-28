@@ -3,38 +3,36 @@ This repository contains all tools relevant to interacting with an NHS deploymen
 
 It contains easy to follow templates and instructions to interact and search CogStack.
 
-__NOTE__ this section is currently in progress. Let me know if there is anything 
+__NOTE__ this section is currently in development. Let me know if there is anything 
 else to add.
 
 ## Setup
 
 ### Step 1: Clone this repository locally.
-1) Enter the directory where you would like to store these files.
+1. Enter the directory where you would like to store these files. `cd path/to/where/you/want/this/repository`
 
-2) `git clone https://github.com/antsh3k/working_with_cogstack.git`
+2. Clone the online repository: `git clone https://github.com/antsh3k/working_with_cogstack.git`
+    
+    Further instructions and self-help with git and git clone. Please visit this [link.](https://github.com/git-guides/git-clone)
+    
+    If you choose to use github desktop rather than the terminal please refer to the [official github desktop guides.](https://docs.github.com/en/desktop)
 
-Further instructions and self-help with git and git clone. Please visit this [link.](https://github.com/git-guides/git-clone)
-
-If you choose to use github desktop rather than the terminal please refer to the [official github desktop guides.](https://docs.github.com/en/desktop)
-
-
+3. Optional: To update to the latest release of this repository: `git pull` 
 
 ### Step 2: Creating a virtual environment and required packages (Terminal)
 __Windows__
-1. `cd path/to/where/you/want/your/environment`
-2. Create a new virtual env: `python3 -m venv venv`
-3. Load the virtual environment: `.\venv\Scripts\activate`
-4. Install relevant packages and libraries: `pip install -r requirements.txt`
+1. Create a new virtual env: `python3 -m venv venv`
+2. Load the virtual environment: `.\venv\Scripts\activate`
+3. Install relevant packages and libraries: `pip install -r requirements.txt`
 
 
 __Linux/MAC OS__
-1. `cd path/to/where/you/want/your/environment`
-2. Create a new virtual env: `python3 -m venv venv`
-3. Load the virtual environment: `source venv/bin/activate`
-4. Install relevant packages and libraries: `pip install -r requirements.txt`
+1. Create a new virtual env: `python3 -m venv venv`
+2. Load the virtual environment: `source venv/bin/activate`
+3. Install relevant packages and libraries: `pip install -r requirements.txt`
 
-Optional: If no jupyter instance is installed. In terminal enter
-1. In the main folder of this repository. Activate your virtual environment, using the command from your respective OS. (Step 3)
+Optional: If no jupyter instance is installed.
+1. In the main folder of this repository. Activate your virtual environment, using the (Step 2) command from your respective OS. 
 2. Start jupyter notebook: `jupyter notebook`
 
 
