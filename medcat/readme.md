@@ -14,7 +14,7 @@ Methods for retrieving data should be stored in the [retrieve_data](search) fold
 
 __Step 1__: Create the model
 
-Each of the model components are found [here.](medcat/create_model)
+Each of the model components are found [here.](medcat/1_create_model)
 This directory contains all the components required to initialise a model pack.
 
 All models should be stored [here.](data/medcat_models)
