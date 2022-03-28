@@ -80,7 +80,7 @@ This directory contains the basics watcher job templates.
 ## [MedCAT](medcat)
 This directory contains the all scripts required to run a MedCAT project.
  
-<img src="data/media/medcat_pipeline_summary.png" width="400" height="200">
+<img src="data/media/medcat_pipeline_summary.png">
 
 ### Demo
 A demo application is available at [MedCAT](https://medcat.rosalind.kcl.ac.uk). This was trained on MIMIC-III to annotate
