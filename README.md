@@ -71,7 +71,7 @@ api_password = ''
 
 ## Contents
 
-## [How to search](search)
+## [How to search using CogStack](search)
 This directory contains the basics search templates
 
 ## [How to create a watcher](watcher)
@@ -80,7 +80,7 @@ This directory contains the basics watcher job templates.
 ## [MedCAT](medcat)
 This directory contains the all scripts required to run a MedCAT project.
  
-<img src="data/media/medcat_pipeline_summary.png">
+<img src="data/media/medcat_pipeline_summary.png" width="48">
 
 ### Demo
 A demo application is available at [MedCAT](https://medcat.rosalind.kcl.ac.uk). This was trained on MIMIC-III to annotate
