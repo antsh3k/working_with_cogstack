@@ -19,21 +19,27 @@ If you choose to use github desktop rather than the terminal please refer to the
 
 
 
-### Step 2: Creating a virtual environment and required packages
+### Step 2: Creating a virtual environment and required packages (Terminal)
 __Windows__
-
-1. Create a new virtual env: `python3 -m venv venv`
-2. Load the virtual environment: `.\venv\Scripts\activate`
-3. Install relevant packages and libraries: `pip install -r requirements.txt`
+1. `cd path/to/where/you/want/your/environment`
+2. Create a new virtual env: `python3 -m venv venv`
+3. Load the virtual environment: `.\venv\Scripts\activate`
+4. Install relevant packages and libraries: `pip install -r requirements.txt`
 
 
 __Linux/MAC OS__
-1. Create a new virtual env: `python3 -m venv venv`
-2. Load the virtual environment: `source venv/bin/activate`
-3. Install relevant packages and libraries: `pip install -r requirements.txt`
+1. `cd path/to/where/you/want/your/environment`
+2. Create a new virtual env: `python3 -m venv venv`
+3. Load the virtual environment: `source venv/bin/activate`
+4. Install relevant packages and libraries: `pip install -r requirements.txt`
+
+Optional: If no jupyter instance is installed. In terminal enter
+1. In the main folder of this repository. Activate your virtual environment, using the command from your respective OS. (Step 3)
+2. Start jupyter notebook: `jupyter notebook`
+
 
 ### Step 3: Enter credentials and Login details
-In this directory you must populate the [credentials.py](credentials.py) file with your own CogStack hostnames, username and passwords.
+In the main folder of this repository you must populate the [credentials.py](credentials.py) file with your own CogStack hostnames, username and passwords.
 
 If you have any questions or issues obtaining these details please contact your local CogStack administrator.
 
