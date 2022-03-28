@@ -6,9 +6,25 @@ It contains easy to follow templates and instructions to interact and search Cog
 __NOTE__ this section is currently in development. Let me know if there is anything 
 else to add.
 
+Tasks left TODO:
+- [ ] CogStack Search
+- [ ] CogStack Watcher Jobs
+- [ ] MedCAT creating a model
+- [ ] MedCAT unsupervised training a model
+- [ ] MedCAT supervised training a model
+- [ ] MedCAT annotating free text
+
+
 ## Setup
 
-### Step 1: Clone this repository locally.
+Users can follow these steps to quickly setup and deploy this repository on their machine.
+
+Any code to enter in these instructions will be represented as `code to enter`.
+
+Please replace anything in < > with your own
+
+### Step 1: Clone this repository locally 
+
 1. Enter the directory where you would like to store these files. `cd path/to/where/you/want/this/repository`
 
 2. Clone the online repository: `git clone https://github.com/antsh3k/working_with_cogstack.git`
@@ -19,7 +35,7 @@ else to add.
 
 3. Optional: To update to the latest release of this repository: `git pull` 
 
-### Step 2: Creating a virtual environment and required packages (Terminal)
+### Step 2: Creating a virtual environment and required packages
 __Windows__
 1. Create a new virtual env: `python3 -m venv venv`
 2. Load the virtual environment: `.\venv\Scripts\activate`
@@ -62,5 +78,12 @@ This directory contains the basics search templates
 This directory contains the basics watcher job templates.
 
 ## [MedCAT](medcat)
-This directory contains the all scripts required to run a MedCAT project. 
+This directory contains the all scripts required to run a MedCAT project.
+ 
+<img src="data/media/medcat_pipeline_summary.png">
+
+### Demo
+A demo application is available at [MedCAT](https://medcat.rosalind.kcl.ac.uk). This was trained on MIMIC-III to annotate
+SNOMED-CT concepts. __Note:__ No supervised training has been provided to this model and therefore should only be used for demonstration
+purposes only.
 
