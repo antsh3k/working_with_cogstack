@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="data/media/cogstack_logo.png">
+    <img src="data/media/cogstack_logo.png" width="150">
 </p>
 
 # Working with CogStack
