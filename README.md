@@ -1,5 +1,7 @@
-<p align="center">
-    <img src="data/media/cogstack_logo.png" width="150">
+<p align="middle">
+    <img scr="data/media/cogstack_logo.png">
+    <img src="data/media/cogstack_logo.png">
+    <img src="data/media/medcat_logo.png">
 </p>
 
 # Working with CogStack
