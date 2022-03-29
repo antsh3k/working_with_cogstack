@@ -1,6 +1,4 @@
-<img align="center" src="data/media/cogstack_logo.png" width="150">
-
-# Working with CogStack
+# Working with <img align="center" src="data/media/cogstack_logo.png" width="150">
 This repository contains all tools relevant to interacting with an NHS deployment of CogStack.
 
 It contains easy to follow templates and instructions to interact and search CogStack.
