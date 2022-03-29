@@ -1,4 +1,4 @@
-# Medical <img src="https://github.com/CogStack/MedCAT/blob/master/media/cat-logo.png" width=45>oncept Annotation Tool
+# Medical <img src="data/media/medcat_logo.png" width=45>oncept Annotation Tool
 
 This directory contains information on retrieving data and creating models
 All details regarding creating, building and running the NLP model are stored here.
