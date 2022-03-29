@@ -1,7 +1,7 @@
 <p align="middle">
-    <img scr="data/media/cogstack_logo.png">
-    <img src="data/media/cogstack_logo.png">
-    <img src="data/media/medcat_logo.png">
+    <img scr="data/media/National_Health_Service_(England)_logo.svg.png" height=150>
+    <img src="data/media/cogstack_logo.png" height=150>
+    <img src="data/media/medcat_logo.png" height=150>
 </p>
 
 # Working with CogStack
