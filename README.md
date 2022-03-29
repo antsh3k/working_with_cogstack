@@ -1,4 +1,4 @@
-<img align="center" src="data/media/cogstack_logo.png" width="100">
+<img align="center" src="data/media/cogstack_logo.png" width="150">
 
 # Working with CogStack
 This repository contains all tools relevant to interacting with an NHS deployment of CogStack.
@@ -6,7 +6,7 @@ This repository contains all tools relevant to interacting with an NHS deploymen
 It contains easy to follow templates and instructions to interact and search CogStack.
 
 __NOTE__ this section is currently in development. Let me know if there is anything 
-else to add.
+else to add!
 
 Tasks left TODO:
 - [ ] CogStack Search
