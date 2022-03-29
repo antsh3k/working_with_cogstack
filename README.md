@@ -1,12 +1,12 @@
 <div class="row">
     <div class="column">
-        <img src="data/media/nhs_logo.png" alt="Nhs_logo" style="width:100%">
+        <img src="data/media/nhs_logo.png" alt="Nhs_logo" style="width:33%">
     </div>
     <div class="column">
-        <img src="data/media/cogstack_logo.png" alt="Cogstack_logo" style="width:100%">
+        <img src="data/media/cogstack_logo.png" alt="Cogstack_logo" style="width:33%">
     </div>
     <div class="column">
-        <img src="data/media/medcat_logo.png" alt="Medcat_logo" style="width:100%">
+        <img src="data/media/medcat_logo.png" alt="Medcat_logo" style="width:33%">
     </div>
 </div>
 
