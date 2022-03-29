@@ -1,8 +1,10 @@
-<p align="middle">
-    <img scr="data/media/National_Health_Service_(England)_logo.svg.png" height=150>
+<img align="left" scr="data/media/nhs_logo.svg.png" height=150>
+<br clear="left"/>
+<p align="center">
     <img src="data/media/cogstack_logo.png" height=150>
-    <img src="data/media/medcat_logo.png" height=150>
 </p>
+<img align="right" src="data/media/medcat_logo.png" height=150>
+<br clear="right"/>
 
 # Working with CogStack
 This repository contains all tools relevant to interacting with an NHS deployment of CogStack.
