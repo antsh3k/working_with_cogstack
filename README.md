@@ -1,9 +1,14 @@
-<p float="center">
+<p align="middle">
     <img src="data/media/nhs_logo.png" alt="Nhs_logo" style="width:20%">
     <img src="data/media/cogstack_logo.png" alt="Cogstack_logo" style="width:20%">
-    <img src="data/media/medcat_logo.png" alt="Medcat_logo" style="width:20%">
+    <img src="data/media/medcat_logo.png" alt="Medcat_logo" style="width:10%">
 </p>
 
+test
+
+||||
+|:---|:---:|---:|
+|<img src="data/media/nhs_logo.png" alt="Nhs_logo" style="width:20%">|<img src="data/media/cogstack_logo.png" alt="Cogstack_logo" style="width:20%">|<img src="data/media/medcat_logo.png" alt="Medcat_logo" style="width:20%">|
 
 # Working with CogStack
 This repository contains all tools relevant to interacting with an NHS deployment of CogStack.
