@@ -27,7 +27,7 @@ Users can follow these steps to quickly setup and deploy this repository on thei
 
 Any code to enter in these instructions will be represented as `code to enter`.
 
-Please replace anything in < > with your own
+Please replace anything within `< >` with your own details.
 
 ### Step 1: Clone this repository locally 
 
