@@ -1,8 +1,9 @@
-<p align="middle">
-    <img src="data/media/nhs_logo.png" alt="Nhs_logo" style="width:20%; padding-top=5%" align="left">
-    <img src="data/media/cogstack_logo.png" alt="Cogstack_logo" style="width:20%" align="center">
-    <img src="data/media/medcat_logo.png" alt="Medcat_logo" style="width:15%; padding-top=3%" align="right">
+<p align="center">
+    <img src="data/media/cogstack_logo.png" alt="Cogstack_logo" style="width:12%" align="left">
+    <img src="data/media/nhs_logo.png" alt="Nhs_logo" style="width:25%; align="center">
+    <img src="data/media/medcat_logo.png" alt="Medcat_logo" style="width:10%; padding-top=3%" align="right">
 </p>
+                                                                                                           
 
 # Working with CogStack
 This repository contains all tools relevant to interacting with an NHS deployment of CogStack.
@@ -27,7 +28,7 @@ Users can follow these steps to quickly setup and deploy this repository on thei
 
 Any code to enter in these instructions will be represented as `code to enter`.
 
-Please replace anything within `< >` with your own details.
+Please replace anything within `<Enter information here>` with your own specific details.
 
 ### Step 1: Clone this repository locally 
 
@@ -42,6 +43,8 @@ Please replace anything within `< >` with your own details.
 3. Optional: To update to the latest release of this repository: `git pull` 
 
 ### Step 2: Creating a virtual environment and required packages
+(Requires Python 3.7+)
+
 __Windows__
 1. Create a new virtual env: `python3 -m venv venv`
 2. Load the virtual environment: `.\venv\Scripts\activate`
@@ -78,18 +81,44 @@ api_password = ''
 ## Contents
 
 ## [How to search using CogStack](search)
-This directory contains the basics search templates
+This directory contains the basics search templates.
+
+For further information on CogStack please visit their [github](https://github.com/CogStack) 
+or [wiki page](https://cogstack.org/). 
 
 ## [How to create a watcher](watcher)
 This directory contains the basics watcher job templates.
 
 ## [MedCAT](medcat)
-This directory contains the all scripts required to run a MedCAT project.
+An overview of this process is shown below.
  
 <img src="data/media/medcat_pipeline_summary.png">
+
+
+Further information about MedCAT can be found from their [github](https://github.com/CogStack/MedCAT) 
+or via their official documentation [here](https://medcat.readthedocs.io/en/latest/).
+
+General MedCAT tutorials can be found [here](https://github.com/CogStack/MedCATtutorials).
+
 
 ### Demo
 A demo application is available at [MedCAT](https://medcat.rosalind.kcl.ac.uk). This was trained on MIMIC-III to annotate
 SNOMED-CT concepts. __Note:__ No supervised training has been provided to this model and therefore should only be used for demonstration
 purposes only.
+
+### MedCAT Citation
+```
+@ARTICLE{Kraljevic2021-ln,
+  title="Multi-domain clinical natural language processing with {MedCAT}: The Medical Concept Annotation Toolkit",
+  author="Kraljevic, Zeljko and Searle, Thomas and Shek, Anthony and Roguski, Lukasz and Noor, Kawsar and Bean, Daniel and Mascio, Aurelie and Zhu, Leilei and Folarin, Amos A and Roberts, Angus and Bendayan, Rebecca and Richardson, Mark P and Stewart, Robert and Shah, Anoop D and Wong, Wai Keong and Ibrahim, Zina and Teo, James T and Dobson, Richard J B",
+  journal="Artif. Intell. Med.",
+  volume=117,
+  pages="102083",
+  month=jul,
+  year=2021,
+  issn="0933-3657",
+  doi="10.1016/j.artmed.2021.102083"
+}
+```
+
 
