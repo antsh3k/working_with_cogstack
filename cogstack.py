@@ -3,14 +3,15 @@ import elasticsearch
 import elasticsearch.helpers
 import pandas as pd
 from typing import Dict, List
+from credentials import *
 
 
 class CogStack(object):
     # TODO: fix for API login
-    def __init__(self, host, port=9200, username=None, password=None, scheme='https'):
+    def __init__(self, hosts, port=9200, username=None, password=None, scheme='https'):
         username, password = self._check_auth_details(username, password)
 
-        self.elastic = elasticsearch.Elasticsearch(hosts=[{'host': host, 'port': port}],
+        self.elastic = elasticsearch.Elasticsearch(hosts=hosts,
                                                    http_auth=(username, password),
                                                    scheme=scheme,
                                                    verify_certs=False)

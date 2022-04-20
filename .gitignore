@@ -1,4 +1,4 @@
-# Ignore all creditial files
+# Ignore all credential files
 credentials.py
 
 # Ignore ipynotebook checkpoints
