@@ -14,12 +14,12 @@ __NOTE__ this section is currently in development. Let me know if there is anyth
 else to add!
 
 Tasks left TODO:
-- [ ] CogStack Search
+- [x] CogStack Search
 - [ ] CogStack Watcher Jobs
-- [ ] MedCAT creating a model
-- [ ] MedCAT unsupervised training a model
-- [ ] MedCAT supervised training a model
-- [ ] MedCAT annotating free text
+- [x] MedCAT creating a model
+- [x] MedCAT unsupervised training a model
+- [x] MedCAT supervised training a model
+- [x] MedCAT annotating free text
 
 
 ## Setup
