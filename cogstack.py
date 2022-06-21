@@ -3,6 +3,10 @@ import elasticsearch
 import elasticsearch.helpers
 import pandas as pd
 from typing import Dict, List
+
+import warnings
+warnings.filterwarnings("ignore")
+
 from credentials import *
 
 
