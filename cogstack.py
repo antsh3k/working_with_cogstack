@@ -12,20 +12,40 @@ from credentials import *
 
 
 class CogStack(object):
-    # TODO: fix for API login
-    def __init__(self, hosts, port=9200, username=None, password=None, scheme='https'):
-        username, password = self._check_auth_details(username, password)
+    def __init__(self, hosts: List, username: str=None, password: str=None,
+                 api_username: str=None, api_password: str=None, api=False):
+        """
 
-        self.elastic = elasticsearch.Elasticsearch(hosts=hosts,
-                                                   http_auth=(username, password),
-                                                   scheme=scheme,
-                                                   verify_certs=False)
+        :param hosts:
+        :param username:
+        :param password:
+        :param api_username:
+        :param api_password:
+        :param api:
+        """
+        if api:
+            api_username, api_password = self._check_api_auth_details(api_username, api_password)
+            self.elastic = elasticsearch.Elasticsearch(hosts=hosts,
+                                                       http_auth=(api_username, api_password),
+                                                       verify_certs=False)
+        else:
+            username, password = self._check_auth_details(username, password)
+            self.elastic = elasticsearch.Elasticsearch(hosts=hosts,
+                                                       basic_auth=(username, password),
+                                                       verify_certs=False)
+
+    def _check_api_auth_details(self, api_username=None, api_password=None):
+        if api_username is None:
+            api_username = input("API Username: ")
+        if api_password is None:
+            api_password = getpass.getpass("API Password: ")
+        return api_username, api_password
 
     def _check_auth_details(self, username=None, password=None):
         if username is None:
-            username = input("Username:")
+            username = input("Username: ")
         if password is None:
-            password = getpass.getpass("Password:")
+            password = getpass.getpass("Password: ")
         return username, password
 
     def get_docs_generator(self, query: Dict, index: str, es_gen_size: int = 800, request_timeout: int = 840000):
