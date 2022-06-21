@@ -3,6 +3,7 @@ import elasticsearch
 import elasticsearch.helpers
 import pandas as pd
 from typing import Dict, List
+from tqdm.notebook import tqdm
 
 import warnings
 warnings.filterwarnings("ignore")
