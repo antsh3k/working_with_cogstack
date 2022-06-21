@@ -48,7 +48,15 @@ class CogStack(object):
             password = getpass.getpass("Password: ")
         return username, password
 
-    def get_docs_generator(self, query: Dict, index: str, es_gen_size: int = 800, request_timeout: int = 840000):
+    def get_docs_generator(self, query: Dict, index: List, es_gen_size: int = 800, request_timeout: int = 300):
+        """
+
+        :param query: search query
+        :param index: List of ES indices to search
+        :param es_gen_size:
+        :param request_timeout:
+        :return: search generator object
+        """
         docs_generator = elasticsearch.helpers.scan(self.elastic,
                                                     query=query,
                                                     index=index,
