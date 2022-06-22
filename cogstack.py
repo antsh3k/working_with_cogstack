@@ -8,8 +8,6 @@ from tqdm.notebook import tqdm
 import warnings
 warnings.filterwarnings("ignore")
 
-from credentials import *
-
 
 class CogStack(object):
     """
