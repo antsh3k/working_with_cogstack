@@ -27,7 +27,7 @@ class CogStack(object):
         if api:
             api_username, api_password = self._check_api_auth_details(api_username, api_password)
             self.elastic = elasticsearch.Elasticsearch(hosts=hosts,
-                                                       http_auth=(api_username, api_password),
+                                                       api_key=(api_username, api_password),
                                                        verify_certs=False)
         else:
             username, password = self._check_auth_details(username, password)
