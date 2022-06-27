@@ -10,8 +10,7 @@ This repository contains all tools relevant to interacting with an NHS deploymen
 
 It contains easy to follow templates and instructions to interact and search CogStack.
 
-__NOTE__ this section is currently in development. Let me know if there is anything 
-else to add!
+__NOTE__ These scripts have been moved to the main repo in the [CogStack Org](https://github.com/CogStack/working_with_cogstack)
 
 Tasks left TODO:
 - [x] CogStack Search
