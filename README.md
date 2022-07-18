@@ -6,6 +6,10 @@
                                                                                                            
 
 # Working with CogStack
+
+__This repo has been moved to [the CogStack organisation](https://github.com/CogStack/working_with_cogstack)__. No further
+updates will be made to this repo
+
 This repository contains all tools relevant to interacting with an NHS deployment of CogStack.
 
 It contains easy to follow templates and instructions to interact and search CogStack.
